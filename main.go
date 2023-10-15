@@ -6,8 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"r4g9.l11/svn/m~/m~go/m~examples/calculator"
-	"r4g9.l11/svn/m~/m~go/m~examples/composite"
+	"github.com/maheis/m.gowiese/calculator"
+	"github.com/maheis/m.gowiese/composite"
+	"github.com/maheis/m.gowiese/jsonfile"
 )
 
 func main() {
@@ -52,7 +53,7 @@ func main() {
 
 	fmt.Println("#######")
 	myHeap()
-	myJson()
+	jsonfile.Jsonfile()
 }
 
 func calc() {

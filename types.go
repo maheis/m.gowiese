@@ -19,5 +19,6 @@ package main
 
 // bool
 
+// Konvertierung von int nach float
 var I int = 42
 var F float64 = float64(I)

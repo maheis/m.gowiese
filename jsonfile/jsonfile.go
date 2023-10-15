@@ -1,4 +1,4 @@
-package main
+package jsonfile
 
 import (
 	"encoding/json"
@@ -12,7 +12,7 @@ type Person struct {
 	Email string `json:"email"`
 }
 
-func myJson() {
+func Jsonfile() {
 	file, err := os.Open("data.json")
 	if err != nil {
 		fmt.Println(err)

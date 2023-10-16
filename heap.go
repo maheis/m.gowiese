@@ -31,7 +31,7 @@ func (h *IntHeap) Pop() any {
 
 // This example inserts several ints into an IntHeap, checks the minimum,
 // and removes them in order of priority.
-func myHeap() {
+func _heap() {
 	// 17, 2, 8, 27, 12, 9, 13, 25, 29, 1, 19, 20, 33, 42, 6, 11, 49, 18
 	h := &IntHeap{17, 2, 8, 27, 12, 9}
 	heap.Init(h)
@@ -42,8 +42,14 @@ func myHeap() {
 	heap.Push(h, 19)
 	heap.Push(h, 20)
 	heap.Push(h, 33)
+	heap.Push(h, 42)
+	heap.Push(h, 6)
+	heap.Push(h, 11)
+	heap.Push(h, 49)
+	heap.Push(h, 18)
 	fmt.Printf("minimum: %d\n", (*h)[0])
 	for h.Len() > 0 {
 		fmt.Printf("%d ", heap.Pop(h))
 	}
+	fmt.Println()
 }

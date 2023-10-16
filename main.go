@@ -25,7 +25,7 @@ func main() {
 	fmt.Println("#######")
 	asynchron()
 	fmt.Println("#######")
-	myHeap() //to check
+	_heap()
 	fmt.Println("#######")
 	jsonfile.Jsonfile()
 }

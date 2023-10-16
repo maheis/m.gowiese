@@ -19,9 +19,9 @@ func main() {
 	fmt.Println("#######")
 	random()
 	fmt.Println("#######")
-	calc() //to check
+	calc() // Überarbeiten!
 	fmt.Println("#######")
-	compo() //to check
+	compo() // Überarbeiten!
 	fmt.Println("#######")
 	asynchron()
 	fmt.Println("#######")

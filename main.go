@@ -7,7 +7,7 @@ import (
 
 	"github.com/maheis/m.gowiese/calculator"
 	"github.com/maheis/m.gowiese/composite"
-	"github.com/maheis/m.gowiese/jsonfile"
+	"github.com/maheis/m.gowiese/files"
 )
 
 func main() {
@@ -27,7 +27,7 @@ func main() {
 	fmt.Println("#######")
 	_heap()
 	fmt.Println("#######")
-	jsonfile.Jsonfile()
+	files.Jsonfile()
 }
 
 func calc() {

@@ -28,6 +28,9 @@ func main() {
 	_heap()
 	fmt.Println("#######")
 	files.Jsonfile()
+	fmt.Println("#######")
+	files.LogFile()
+	fmt.Println("#######")
 }
 
 func calc() {

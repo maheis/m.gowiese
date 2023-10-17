@@ -42,7 +42,7 @@ func (p Person) String() string {
 
 func Jsonfile() {
 	// Datei öffnen
-	file, err := os.Open("jsonfile/data.json")
+	file, err := os.Open("files/data.json")
 	if err != nil {
 		fmt.Println(err)
 		return
@@ -69,7 +69,7 @@ func Jsonfile() {
 	fmt.Println(person)
 
 	// Neue leere Datei erstellen
-	file, err = os.Create("jsonfile/data.json")
+	file, err = os.Create("files/data.json")
 	if err != nil {
 		fmt.Println(err)
 		return

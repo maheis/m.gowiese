@@ -40,7 +40,7 @@ func (p Person) String() string {
 	return ret
 }
 
-func Jsonfile() {
+func JsonFile() {
 	// Datei öffnen
 	file, err := os.Open("files/data.json")
 	if err != nil {

@@ -11,26 +11,25 @@ import (
 )
 
 func main() {
-	hello()
-	fmt.Println("#######")
-	playground()
-	fmt.Println("#######")
-	examples()
-	fmt.Println("#######")
-	random()
-	fmt.Println("#######")
-	calc() // Überarbeiten!
-	fmt.Println("#######")
-	compo() // Überarbeiten!
-	fmt.Println("#######")
-	asynchron()
-	fmt.Println("#######")
-	_heap()
-	fmt.Println("#######")
-	files.Jsonfile()
-	fmt.Println("#######")
-	files.LogFile()
-	fmt.Println("#######")
+	// hello()
+	// playground()
+	// examples()
+	// fmt.Println("#######")
+	// random()
+	// fmt.Println("#######")
+	// calc() // Überarbeiten!
+	// fmt.Println("#######")
+	// compo() // Überarbeiten!
+	// fmt.Println("#######")
+	// asynchron()
+	// fmt.Println("#######")
+	// _heap()
+	// fmt.Println("#######")
+	files.FileOperations()
+	// fmt.Println("#######")
+	// files.JsonFile()
+	// fmt.Println("#######")
+	// files.LogFile()
 }
 
 func calc() {

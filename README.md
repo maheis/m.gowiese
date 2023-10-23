@@ -1,2 +1,2 @@
 # m.gowiese
-spielwiese für go, kleine anleitungen und trial and error... alles was mir hilft um go zu lernen und zu verstehen!
+Meine Spielwiese für Go... Kleine Anleitungen, Notizen und vor allem viel Trial and error. Alles was mir hilft um Go zu lernen und verstehen!

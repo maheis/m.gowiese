@@ -9,5 +9,9 @@ func array() {
 	fmt.Println("a:", a)
 	fmt.Println("b:", b)
 
-	//dereferenzieren wenn das es nur einen Pointer auf das array gibt
+	ptrA := &a
+	fmt.Println("ptrA:", ptrA)
+	// fmt.Println("ptrA[0]:", ptrA[0]) <- das geht nicht! Der Pointer muss dereferenziert werden.
+	c := *ptrA
+	fmt.Println("c:", c[0])
 }

@@ -7,7 +7,6 @@ import (
 
 	"github.com/maheis/m.gowiese/calculator"
 	"github.com/maheis/m.gowiese/composite"
-	"github.com/maheis/m.gowiese/files"
 )
 
 func main() {
@@ -25,11 +24,13 @@ func main() {
 	// fmt.Println("#######")
 	// _heap()
 	// fmt.Println("#######")
-	files.FileOperations()
+	// files.FileOperations()
 	// fmt.Println("#######")
 	// files.JsonFile()
 	// fmt.Println("#######")
 	// files.LogFile()
+	fmt.Println("#######")
+	array()
 }
 
 func calc() {

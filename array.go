@@ -12,7 +12,8 @@ func array() {
 	ptrA := &a
 	fmt.Println("ptrA:", ptrA)
 	// fmt.Println("ptrA[0]:", ptrA[0]) <- das geht nicht! Der Pointer muss dereferenziert werden.
-	c := *ptrA
+	fmt.Println("c:", (*ptrA)[0]) // das geht wenn es in () gesetzt wird ...
+	c := *ptrA                    // ... oder führ Mehrere Zugriffe in eine Variable dereferenziert wird
 	fmt.Println("c:", c[0])
 
 	//Itterieren durch den Array, der Index i wird dabei durch den _ ignoriert!

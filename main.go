@@ -16,9 +16,9 @@ func main() {
 	// fmt.Println("#######")
 	// random()
 	// fmt.Println("#######")
-	// calc() // Überarbeiten!
+	// calc() // Refactoring
 	// fmt.Println("#######")
-	// compo() // Überarbeiten!
+	// compo() // Refactoring
 	// fmt.Println("#######")
 	// asynchron()
 	// fmt.Println("#######")
@@ -30,7 +30,7 @@ func main() {
 	// fmt.Println("#######")
 	// files.LogFile()
 	fmt.Println("#######")
-	array()
+	array() // InWork
 }
 
 func calc() {

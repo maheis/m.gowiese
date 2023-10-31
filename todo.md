@@ -1,0 +1,8 @@
+- [ ] Fuction als Parameter
+- [ ] Fuction als Rückgabewert
+- [ ] Fuction als Variable
+- [ ] Fuction als Methoden <- ?
+- [ ] Fuction als Closure <- ?
+- [ ] Tests
+- [ ] Dokumentation
+- [ ] readme.md Formatierungen

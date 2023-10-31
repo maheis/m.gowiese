@@ -7,30 +7,48 @@ import (
 
 	"github.com/maheis/m.gowiese/calculator"
 	"github.com/maheis/m.gowiese/composite"
+	"github.com/maheis/m.gowiese/files"
 )
 
 func main() {
-	// hello()
-	// playground()
-	// examples()
-	// fmt.Println("#######")
-	// random()
-	// fmt.Println("#######")
-	// calc() // Refactoring
-	// fmt.Println("#######")
-	// compo() // Refactoring
-	// fmt.Println("#######")
-	// asynchron()
-	// fmt.Println("#######")
-	// _heap()
-	// fmt.Println("#######")
-	// files.FileOperations()
-	// fmt.Println("#######")
-	// files.JsonFile()
-	// fmt.Println("#######")
-	// files.LogFile()
+	hello()
+	playground()
+	examples()
+
 	fmt.Println("#######")
-	array() // InWork
+	fmt.Println("random()")
+	random()
+
+	fmt.Println("#######")
+	fmt.Println("calc()")
+	calc() // Refactoring
+	fmt.Println("#######")
+	fmt.Println("compo() ")
+	compo() // Refactoring
+
+	fmt.Println("#######")
+	fmt.Println("asynchron()")
+	asynchron()
+
+	fmt.Println("#######")
+	fmt.Println("_heap()")
+	_heap()
+
+	fmt.Println("#######")
+	fmt.Println("files.FileOperations()")
+	files.FileOperations()
+
+	fmt.Println("#######")
+	fmt.Println("files.JsonFile()")
+	files.JsonFile()
+
+	fmt.Println("#######")
+	fmt.Println("files.LogFile()")
+	files.LogFile()
+
+	fmt.Println("#######")
+	fmt.Println("array()")
+	array()
 }
 
 func calc() {

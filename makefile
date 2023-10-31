@@ -33,9 +33,10 @@ test: analyze
 .PHONY: analyze build coverage test 
 # sagt es `make`, dass `analyze`, `build`, `coverage` und `test` keine Dateien sind. 
 
-# Dies ist nützlich, wenn Sie ein Ziel haben, das den gleichen Namen wie eine Datei oder ein Verzeichnis hat. 
-# Ohne `.PHONY` würde `make` das Ziel nicht ausführen, wenn eine Datei oder ein Verzeichnis mit dem 
-# gleichen Namen existiert und aktuell ist (d.h., es hat sich seit der letzten Ausführung von `make` nicht geändert).
+# Dies ist nützlich, wenn Sie ein Ziel haben, das den gleichen Namen wie eine Datei oder 
+# ein Verzeichnis hat. Ohne `.PHONY` würde `make` das Ziel nicht ausführen, wenn eine 
+# Datei oder ein Verzeichnis mit dem  gleichen Namen existiert und aktuell ist (d.h., es 
+# hat sich seit der letzten Ausführung von `make` nicht geändert).
 
-# Mit `.PHONY` teilen Sie `make` mit, dass es das Ziel unabhängig vom Vorhandensein oder Status einer gleichnamigen 
-# Datei oder eines Verzeichnisses ausführen soll.
+# Mit `.PHONY` teilen Sie `make` mit, dass es das Ziel unabhängig vom Vorhandensein oder 
+# Status einer gleichnamigen Datei oder eines Verzeichnisses ausführen soll.

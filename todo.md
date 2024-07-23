@@ -6,3 +6,11 @@
 - [ ] Tests
 - [ ] Dokumentation
 - [ ] readme.md Formatierungen
+- [ ] slice
+- [ ] map
+- [ ] struct
+- [ ] interface
+- [ ] pointer
+- [x] channel
+- [ ] select
+- [ ] module

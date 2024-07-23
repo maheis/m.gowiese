@@ -9,20 +9,24 @@
 default: build
 
 analyze:
+	@echo "Analyzing code"
 	@go vet ./...
 	@go run honnef.co/go/tools/cmd/staticcheck@latest --checks=all ./...
 
 build: analyze test
+	@echo "Building binary"
 	@mkdir -p ./build
 	@go build -o ./build/tictactoe
 
 coverage: test
+	@echo "Generating coverage report"
 	@mkdir -p ./coverage
 	@go test -coverprofile=./coverage/coverage.out ./...
 	@go tool cover -html=./coverage/coverage.out -o ./coverage/coverage.html
 	@open ./coverage/coverage.html
 
 test: analyze
+	@echo "Running tests"
 	@go test -cover ./...
 
 # GitHub Copilot: 

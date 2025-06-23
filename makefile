@@ -16,7 +16,7 @@ analyze:
 build: analyze test
 	@echo "Building binary"
 	@mkdir -p ./build
-	@go build -o ./build/tictactoe
+	@go build -o ./build/m.gowiese
 
 coverage: test
 	@echo "Generating coverage report"

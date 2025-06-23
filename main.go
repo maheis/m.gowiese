@@ -40,7 +40,7 @@ func main() {
 
 	fmt.Println("#######")
 	fmt.Println("files.JsonFile()")
-	files.JsonFile()
+	files.JSONFile()
 
 	fmt.Println("#######")
 	fmt.Println("files.LogFile()")

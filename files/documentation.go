@@ -1,2 +1,2 @@
-// Package files contains examples for fileoperations
+// Package files enthält Beispiele für fileoperations
 package files

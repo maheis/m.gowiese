@@ -1,3 +1,4 @@
+// Package calculator bietet grundlegende Rechenoperationen an.
 package calculator
 
 import (
@@ -12,7 +13,7 @@ func Abs(x int) int {
 	return x
 }
 
-// Funktion mit mehreren Rückgabewerten
+// SquareRoot berechnet die Quadratwurzel eines Wertes.
 func SquareRoot(value float64) (float64, bool) {
 	if value < 0 {
 		return 0, false
@@ -20,7 +21,7 @@ func SquareRoot(value float64) (float64, bool) {
 	return math.Sqrt(value), true
 }
 
-// Funktion mit meherer Rückgaberwertem, aber mit ERROR als Rückgabewert
+// SquareRootWithError berechnet die Quadratwurzel eines Wertes und gibt einen Fehler zurück, wenn der Wert negativ ist.
 func SquareRootWithError(value float64) (float64, error) {
 	if value < 0 {
 		return 0, fmt.Errorf("no square root of negative value (%f)", value)

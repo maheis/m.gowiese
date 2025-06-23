@@ -1,3 +1,4 @@
+// Package composite implementiert verschiedene Datensammlungen in Go, wie Arrays, Slices und Maps.
 package composite
 
 import (
@@ -6,7 +7,7 @@ import (
 
 func DemoCollections() {
 	// Array mit unveränderlicher Größe
-	var primesArray [5]int = [5]int{2, 3, 5, 7, 11}
+	var primesArray = [5]int{2, 3, 5, 7, 11}
 	fmt.Println("primesArray: ", primesArray)
 
 	// Slice ist ein Array mit veränderlicher Größe

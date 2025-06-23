@@ -1,13 +1,14 @@
+// Package calculator bietet grundlegende Rechenoperationen an.
 package calculator
 
-// Privat
+// pi mit kleinem p Privat
 //const pi float64 = 3.141592
 
-// Öffentlich
+// Pi mit großem P Öffentlich
 const Pi float64 = 3.141592
 
 func Add(a int, b int) int {
-	var sum int = a + b
+	var sum = a + b
 	// var sum = a + b
 	// sum := a + b //Syntax für neue Variable mit direkter Zuweisung!
 
@@ -18,7 +19,7 @@ func Sub(a int, b int) int {
 	return a - b
 }
 
-// Zwei Rückgabetypen mit name
+// Div führt eine Division durch und gibt den Quotienten und den Rest zurück.
 func Div(a int, b int) (quotient int, rest int) {
 	quotient = a / b
 	rest = a % b

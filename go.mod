@@ -1,3 +1,3 @@
 module github.com/maheis/m.gowiese
 
-go 1.20
+go 1.24

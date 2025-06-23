@@ -1,1 +1,45 @@
-{"Väter":[{"name":"Mani","alter":39,"verheiratet":true,"beruf":"Fachinformatiker AE","kinder":[{"name":"Phelina","alter":10,"schulabschluss":"Grundschule"},{"name":"Leana","alter":8,"schulabschluss":"2te Klasse"},{"name":"Soula","alter":6,"schulabschluss":"Kindergarten"}]},{"name":"Robert","alter":50,"verheiratet":true,"beruf":"Getriebe Konstrukteur","kinder":[{"name":"Lena","alter":8,"schulabschluss":"2te Klasse"},{"name":"Fabian","alter":6,"schulabschluss":"Kindergarten"}]}]}
+{
+    "Väter": [
+        {
+            "name": "Manfred",
+            "alter": 39,
+            "verheiratet": true,
+            "beruf": "Fachinformatiker AE",
+            "kinder": [
+                {
+                    "name": "Phelina",
+                    "alter": 10,
+                    "schulabschluss": "Grundschule"
+                },
+                {
+                    "name": "Leana",
+                    "alter": 8,
+                    "schulabschluss": "2te Klasse"
+                },
+                {
+                    "name": "Soula",
+                    "alter": 6,
+                    "schulabschluss": "Kindergarten"
+                }
+            ]
+        },
+        {
+            "name": "Robert",
+            "alter": 50,
+            "verheiratet": true,
+            "beruf": "Getriebe Konstrukteur",
+            "kinder": [
+                {
+                    "name": "Lena",
+                    "alter": 8,
+                    "schulabschluss": "2te Klasse"
+                },
+                {
+                    "name": "Fabian",
+                    "alter": 6,
+                    "schulabschluss": "Kindergarten"
+                }
+            ]
+        }
+    ]
+}

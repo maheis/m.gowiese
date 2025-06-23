@@ -1,3 +1,4 @@
+// Package files enthält Beispiele für fileoperations
 package files
 
 import (
@@ -6,6 +7,7 @@ import (
 	"os"
 )
 
+// Person repräsentiert eine Person mit Väter
 // Struct für die JSON-Datei
 // Cooler Generator: https://mholt.github.io/json-to-go/
 type Person struct {
@@ -22,6 +24,7 @@ type Person struct {
 	} `json:"Väter"`
 }
 
+// String gibt eine formatierte Zeichenkette für die Person zurück.
 // Implementiert das Stringer interface und Formatiert die Ausgabe von fmt.Print()
 // Diese Funktion darf nur auf dem Struct direkt genutzt werden, nicht auf einem Pointer!
 func (p Person) String() string {
@@ -40,7 +43,7 @@ func (p Person) String() string {
 	return ret
 }
 
-func JsonFile() {
+func JSONFile() {
 	// Datei öffnen
 	file, err := os.Open("files/data.json")
 	if err != nil {

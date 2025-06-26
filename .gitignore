@@ -21,5 +21,10 @@ bin/*
 
 # Go workspace file
 go.work
+go.sum
 file.log
 file.txt
+
+# Wails
+node_modules
+frontend/dist

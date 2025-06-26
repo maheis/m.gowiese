@@ -14,7 +14,6 @@ analyze:
 	@go run honnef.co/go/tools/cmd/staticcheck@latest --checks=all ./...
 
 build: analyze test
-	@go install github.com/wailsapp/wails/v2/cmd/wails@latest
 	@echo "Building binary"
 	@mkdir -p ./build
 	@wails build

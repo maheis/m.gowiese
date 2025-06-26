@@ -1,5 +1,9 @@
 # todo
 
+- [ ] GUI
+  - [x] Gio UI
+  - [x] miqt
+  - [ ] Wails
 - [x] GitHub Actions
 - [ ] Fuction als Parameter
 - [ ] Fuction als Rückgabewert

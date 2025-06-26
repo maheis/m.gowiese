@@ -17,3 +17,8 @@ to this in your browser, and you can call your Go code from devtools.
 ## Building
 
 To build a redistributable, production mode package, use `wails build`.
+
+## Modification
+
+Content of go.mod and go.sum are moved to main m.gowiese directory.
+New inset `makefile` to build the project.

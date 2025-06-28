@@ -4,6 +4,10 @@
   - [x] Gio UI
   - [x] miqt
   - [ ] Wails
+    - [x] JS Framework aussuchen -> preact
+    - [ ] m.cms design anfangen, learning by doing
+    - [ ] Kann man ein eigenes Template erstellen, was nicht öffentlich ist?
+    - [ ] Input mit Enter abschicken
 - [x] GitHub Actions
 - [ ] Fuction als Parameter
 - [ ] Fuction als Rückgabewert

@@ -8,12 +8,16 @@
 # abhängig machen. Hier ist ein Beispiel, wie Sie build als Standardziel festlegen können:
 default: build
 
+clean:
+	@echo "Cleaning dependencies"
+	@go mod tidy
+
 analyze:
 	@echo "Analyzing code"
 	@go vet ./...
 	@go run honnef.co/go/tools/cmd/staticcheck@latest --checks=all ./...
 
-build: analyze test
+build: clean analyze test
 	@echo "Building binary"
 	@mkdir -p ./build
 	@go build -o ./build/m.gowiese

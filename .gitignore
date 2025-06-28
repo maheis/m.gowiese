@@ -27,4 +27,7 @@ file.txt
 
 # Wails
 node_modules
-frontend/dist
+dist
+!gitkeep
+package-lock.json
+package.json.md5

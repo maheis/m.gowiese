@@ -20,6 +20,8 @@ go build hello.go
 
 `go mod tidy` ist ein Befehl in Go, der verwendet wird, um die Abhängigkeiten eines Go-Projekts zu bereinigen. Er entfernt ungenutzte Abhängigkeiten aus der `go.mod`-Datei und aktualisiert die `go.sum`-Datei, um sicherzustellen, dass alle benötigten Abhängigkeiten korrekt aufgeführt sind. Dies hilft, das Projekt sauber und übersichtlich zu halten.
 
+`go mod vendor` ist ein Befehl in Go, der verwendet wird, um alle Abhängigkeiten eines Go-Projekts in ein Verzeichnis namens `vendor` zu kopieren. Dieses Verzeichnis enthält alle benötigten Pakete und deren Abhängigkeiten, die für das Projekt erforderlich sind. Dadurch wird sichergestellt, dass das Projekt unabhängig von externen Quellen funktioniert und die Abhängigkeiten lokal verfügbar sind.
+
 ## Wails
 
 Wails ist ein Framework, um Go-Backends mit modernen Frontends zu verbinden. Es ermöglicht die Entwicklung von Desktop-Anwendungen mit Go als Backend und modernen Web-Technologien wie HTML, CSS und JavaScript für das Frontend.

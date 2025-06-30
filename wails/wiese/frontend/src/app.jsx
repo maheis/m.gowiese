@@ -20,9 +20,15 @@ export function App(props) {
                 <div id="result">{resultText}</div>
                 <br />
                 <input id="name" onChange={updateName} autoComplete="off" name="input" type="text" />
-                <button class="green small" onClick={greet}>Hey 👋</button>
-                <button onClick={greet}>Hey 👋</button>
-
+                <br />
+                <br />
+                <button class="green small" onClick={greet}>Hey 👋</button>&nbsp;
+                <button class="yellow small" onClick={greet}>Hey 👋</button>&nbsp;
+                <button class="red small" onClick={greet}>Hey 👋</button>&nbsp;
+                <button class="blue small" onClick={greet}>Hey 👋</button>&nbsp;
+                <button class="orange small" onClick={greet}>Hey 👋</button>&nbsp;
+                <button class="lila small" onClick={greet}>Hey 👋</button>&nbsp;
+                <button class="small" onClick={greet}>Hey 👋</button>
             </div >
         </>
     )

@@ -4,7 +4,7 @@ import { Greet } from "../wailsjs/go/main/App";
 import { useState } from "preact/hooks";
 
 export function App(props) {
-    const [resultText, setResultText] = useState("Please enter your name below 👇");
+    const [resultText, setResultText] = useState("Bitte gib deinen Namen ein 👇");
     const [name, setName] = useState('');
     const updateName = (e) => setName(e.target.value);
     const updateResultText = (result) => setResultText(result);
@@ -17,12 +17,13 @@ export function App(props) {
         <>
             <div id="App">
                 <img src={logo} id="logo" alt="logo" />
-                <div id="result" className="result">{resultText}</div>
-                <div id="input" className="input-box">
-                    <input id="name" className="input" onChange={updateName} autoComplete="off" name="input" type="text" />
-                    <button className="btn" onClick={greet}>Greet</button>
-                </div>
-            </div>
+                <div id="result">{resultText}</div>
+                <br />
+                <input id="name" onChange={updateName} autoComplete="off" name="input" type="text" />
+                <button class="green small" onClick={greet}>Hey 👋</button>
+                <button onClick={greet}>Hey 👋</button>
+
+            </div >
         </>
     )
 }

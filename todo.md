@@ -5,7 +5,7 @@
   - [x] miqt
   - [ ] Wails
     - [x] JS Framework aussuchen -> preact
-    - [ ] m.cms design anfangen, learning by doing
+    - [x] m.cms design anfangen, learning by doing
     - [ ] Kann man ein eigenes Template erstellen, was nicht öffentlich ist?
     - [ ] Input mit Enter abschicken
 - [x] GitHub Actions

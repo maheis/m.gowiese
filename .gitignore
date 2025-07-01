@@ -28,6 +28,7 @@ file.txt
 # Wails
 node_modules
 dist
-!gitkeep
+#!gitkeep
 package-lock.json
 package.json.md5
+*dev-linux-amd64

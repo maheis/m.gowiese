@@ -4,7 +4,7 @@ import { Color } from "../wailsjs/go/main/App";
 import { Greet } from "../wailsjs/go/main/App";
 import { useState } from "preact/hooks";
 
-export function App(props) {
+export function First(props) {
     // useState('') gibt ein Array zurück: [aktuellerWert, setFunktion].
     // const [<VARIABLE>, set<VARIABLE-Functionsaufruf>] = useState('<STARTWERT>');
     const [resultColor, setResultColor] = useState('');

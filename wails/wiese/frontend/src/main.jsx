@@ -1,5 +1,5 @@
-import {render} from 'preact';
-import {App} from './app';
+import { render } from 'preact';
+import { First } from './app';
 import './style.css';
 
-render(<App/>, document.getElementById('app'));
+render(<First />, document.getElementById('app'));

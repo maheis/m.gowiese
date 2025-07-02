@@ -2,6 +2,7 @@ import './app.css';
 import logo from "./assets/images/frückteulen.papa.transparent.png";
 import { Color } from "../wailsjs/go/main/App";
 import { Greet } from "../wailsjs/go/main/App";
+import { ChoosColor } from "../wailsjs/go/main/App";
 import { useState } from "preact/hooks";
 
 export function First(props) {
@@ -34,12 +35,12 @@ export function First(props) {
 
     return (
         <>
-            <div id="App">
+            <div id="First">
                 <img src={logo} id="logo" alt="logo" />
                 <font class={resultColor}>{resultText}</font>
                 <br />
                 <br />
-                <input id="name" onChange={updateName} autoComplete="off" name="input" type="text" />
+                <input onChange={updateName} autoComplete="off" name="input" type="text" />
                 <br />
                 <br />
                 <button class="green small" onClick={() => greet('green')}>Hey 👋</button>&nbsp;
@@ -52,4 +53,34 @@ export function First(props) {
             </div >
         </>
     )
+}
+
+export function Second(props) {
+    const [resultColor, setResultColor] = useState('');
+    const [resultText, setResultText] = useState('Bitte wähle deine Farbe 👇');
+
+    const updateResultColor = (result) => setResultColor(result);
+    const updateResultText = (result) => setResultText(result);
+
+    function color(color) {
+        Color(color).then(updateResultColor);
+        ChoosColor(color).then(updateResultText);
+    }
+
+    return (
+        <>
+            <div id="Second">
+                <font class={resultColor}>{resultText}</font>
+                <br />
+                <br />
+                <input class="smallest" onChange={() => color('green')} id="green" name="color" type="radio" /><label class="green" for="green">green</label>
+                <input class="smallest" onChange={() => color('yellow')} id="yellow" name="color" type="radio" /><label class="yellow" for="yellow">yellow</label>
+                <input class="smallest" onChange={() => color('red')} id="red" name="color" type="radio" /><label class="red" for="red">red</label>
+                <input class="smallest" onChange={() => color('blue')} id="blue" name="color" type="radio" /><label class="blue" for="blue">blue</label>
+                <input class="smallest" onChange={() => color('orange')} id="orange" name="color" type="radio" /><label class="orange" for="orange">orange</label>
+                <input class="smallest" onChange={() => color('lila')} id="lila" name="color" type="radio" /><label class="lila" for="lila">lila</label>
+                <input class="smallest" onChange={() => color('"no"')} id="no" name="color" type="radio" /><label class="" for="no">"no"</label>
+            </div >
+        </>
+    );
 }

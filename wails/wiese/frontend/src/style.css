@@ -154,8 +154,8 @@ hr {
     border-top: 1px solid #E0E0E0;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 /******************************************************************************
@@ -558,27 +558,33 @@ a.transparent {
 
 font.orange,
 td.orange,
-td.orange input[type='text'] {
+td.orange input[type='text'],
+label.orange {
     color: #FFB74D;
 }
 
-font.blue {
+font.blue,
+label.blue {
     color: #64B5F6;
 }
 
-font.pink {
+font.pink,
+label.pink {
     color: #F06292;
 }
 
-font.green {
+font.green,
+label.green {
     color: #81C784;
 }
 
-font.darkgreen {
+font.darkgreen,
+label.darkgreen {
     color: #2d5f30;
 }
 
-font.red {
+font.red,
+label.red {
     color: #E57373;
 }
 
@@ -586,23 +592,28 @@ font.red {
 /* color: #E0E0E0; */
 /* } */
 
-font.yellow {
+font.yellow,
+label.yellow {
     color: #FFF176;
 }
 
-font.lila {
+font.lila,
+label.lila {
     color: #9955ff;
 }
 
-font.brown {
+font.brown,
+label.brown {
     color: #8B4513;
 }
 
-font.black {
+font.black,
+label.black {
     color: #000;
 }
 
-font.white {
+font.white,
+label.white {
     color: #fff;
 }
 

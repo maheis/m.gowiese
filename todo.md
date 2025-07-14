@@ -6,8 +6,28 @@
   - [ ] Wails
     - [x] JS Framework aussuchen -> preact
     - [x] m.cms design anfangen, learning by doing
+      - [x] übernehmen
+      - [x] anpassen
+      - [x] erweitern
+      - [ ] hr in verschiedene farben
     - [ ] Kann man ein eigenes Template erstellen, was nicht öffentlich ist?
     - [ ] Input mit Enter abschicken
+    - [ ] Kann ich Prism.js in Wails verwenden?
+    - [ ] tabelle
+      - [ ] zeile editieren
+      - [ ] zeile löschen
+      - [ ] zeile hinzufügen
+      - [ ] zeile sortieren
+      - [ ] zeile filtern
+      - [ ] zeile suchen
+      - [ ] zeile kopieren
+      - [ ] zeile einfügen
+      - [ ] zeile verschieben
+      - [ ] zeile duplizieren
+      - [ ] zeile markieren
+      - [ ] zeile ausblenden
+      - [ ] zeile einblenden
+- [ ] SQLite
 - [x] GitHub Actions
 - [ ] Fuction als Parameter
 - [ ] Fuction als Rückgabewert
